@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: hsl(225, 100%, 94%);
+}
+.container{
+    border-radius: 30px;
+    background-color: white;
+    width: 90%;
+    max-width: 500px;
+    margin: 15% auto;
+    box-shadow: 0 0 15px 10px rgba(166,163,223,0.5);
+}
+.Upper-image img{
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.infos{
+    text-align: center;
+    padding-bottom: 1em;
+}
+.infos h1{
+    padding: .5em 0;
+    font-family: monospace;
+}
+.infos p{
+    width: 87%;
+    max-width: 500px;
+    font-family: sans-serif;
+    text-indent: 2.2em;
+    font-size: .9em;
+    margin: 0 auto;
+}
+.payment{
+    display: flex;
+    padding: 1em;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 30px;
+    background-color: hsl(225, 100%, 98%);
+}
+.payment-desc{
+    padding: .5em 1em;
+}
+.payment-desc span:nth-of-type(1){
+    font-family: fantasy;
+}
+.payment-desc span:nth-of-type(2){
+    font-family: sans-serif;
+    color: hsl(224, 23%, 55%);
+}
+.align a:active{
+   text-decoration: none;
+   color: hsl(245, 75%, 52%);
+}
+.align{
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+}
+.buttons a{
+    text-decoration: none;
+}
+.buttons a:nth-of-type(1){
+    color: white;
+    font-family: cursive;
+    background-color: hsl(245, 75%, 52%);
+    margin: 5% auto;
+    padding: .8em 3.5em;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 10px rgba(166,163,223,0.5);
+}
+.buttons a:nth-of-type(1):active{
+    color: white;
+    font-family: cursive;
+    background-color: hsl(223, 47%, 23%);
+    margin: 5% auto;
+    padding: .8em 3.5em;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 10px rgba(166,163,223,0.5);
+}
+.buttons a:nth-of-type(2){
+    font-family: cursive;
+    font-weight: 900;
+    margin: 2% auto;
+    color: hsl(224, 23%, 55%);
+}
+.buttons a:nth-of-type(2):active{
+    font-family: cursive;
+    font-weight: 900;
+    margin: 2% auto;
+    color: black;
+}
+@media only screen and (min-width:1440px){
+    *{
+         padding: 0;
+          margin: 0;
+        box-sizing: border-box;
+        }
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        background-image: url("images/pattern-background-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+    }
+    .container{
+        border-radius: 30px;
+        background-color: white;
+        width: 90%;
+        max-width: 500px;
+        margin: 9% auto;
+        box-shadow: 0 0 15px 10px rgba(166,163,223,0.5);
+    }
+}
