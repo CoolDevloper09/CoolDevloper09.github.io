@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 html{
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 img{
@@ -75,7 +76,7 @@ nav ul li a{
 }
 .title h1{
     font-family: 'Oswald', sans-serif;
-    font-size: 90px;
+    font-size: 5.625em;
     line-height: 1em;
 }
 .about{
@@ -275,7 +276,9 @@ nav ul li a{
     }
 }
 @media only screen and (max-width:700px){
-    
+    .about{
+        padding-bottom: 1.5em;
+    }
     .margination{
         max-width: 1500px;
         margin: 0 10%;
@@ -318,7 +321,8 @@ nav ul li a{
         padding: 1em 0em;
         color: white;
         font-family: 'Oswald', sans-serif;
-        font-size: 40px;
+        font-size: 35px;
+        text-align: center;
     }
     .sc{
         text-align: center;
